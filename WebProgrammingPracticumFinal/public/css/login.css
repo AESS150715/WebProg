@@ -1,76 +1,26 @@
-*
+.login-form
 {
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    align-content: center;
-    align-items: center;
-}
-
-.grid-header 
-{ 
-    grid-area: header; 
-    color: white;    
-    width: 100%;
-    background-color: black;
-    display: flex;
-}
-
-.left-text-header
-{
-    width: 50%;
     text-align: left;
-    padding-left: 10%;
+    margin: 10% 15%;
+    width: 35%;
+    border-style: groove;
 }
 
-.right-text-header
+.input-form
 {
-    width: 50%;
-    padding-left: 40%;
+    /* width: 80%; */
+    /* text-align: center; */
+    padding: 2.5% 0%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.right-text-header > a
+.input-form-text
 {
-    text-decoration: none;
-    color: white;
-    margin: 0px 20px;
-
+    margin-left: 10%; 
 }
 
-.right-text-header > a:hover
+button:hover
 {
     color: blue;
-}
-
-.grid-content { grid-area: main; }
-
-.grid-footer 
-{ 
-    grid-area: footer; 
-    background-color: black;
-    color: white;    
-}
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'main'
-    'footer';
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
-#grid-footer-style
-{
-    font-size: 20px;
-    /* margin-top: 8.25%; */
-    /* padding: 2.5% 0%; */
 }
