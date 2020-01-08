@@ -38,7 +38,7 @@
 				<div class="card-body" id="card-body-2">
 						<span> Category : </span>
 						<br>
-						<button style="background-color:green; color:white;">Add To Cart</button>
+						<button style="background-color:green; color:white; width:60%; line-height:125%;">Add To Cart</button>
 				</div>
 			</div>
 		{{-- @endforeach --}}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/homecontent.css">
     
 </head>
 <body>
@@ -15,7 +15,7 @@
                <a href="" style="text-decoration:none; color:white; font-size:30px;">Mimi Shop</a>
             </div>
             <div class="right-text-header">
-                <a href="">Login</a>
+                <a href="/login">Login</a>
                 <a href="">Register</a>
             </div>
         </div>

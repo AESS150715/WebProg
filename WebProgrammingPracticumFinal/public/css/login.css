@@ -40,37 +40,24 @@
 
 .right-text-header > a:hover
 {
-    color: greenyellow;
-}
-
-.grid-menu 
-{ 
-    grid-area: menu; 
-    /* width: 100%; */
-}
-
-#grid-menu-style
-{
-    margin: 0% 20%;
+    color: blue;
 }
 
 .grid-content { grid-area: main; }
+
 .grid-footer 
 { 
     grid-area: footer; 
     background-color: black;
     color: white;    
-    /* font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; */
 }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header header header'
-    'menu menu main main main main main main'
-    'menu menu main main main main main main'
-    'footer footer footer footer footer footer footer footer';
+    'header'
+    'main'
+    'footer';
   grid-gap: 10px;
   padding: 10px;
 }
@@ -79,26 +66,6 @@
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-}
-
-.product
-{
-    margin: 5% 5%;
-}
-
-.card
-{
-    text-align: left;
-}
-
-#card-body-1
-{
-    padding: 20px 20px;
-}
-
-#card-body-2
-{
-    background-color : #d3d3d3; line-height : 40px; text-align: center;
 }
 
 #grid-footer-style

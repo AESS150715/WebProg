@@ -1,0 +1,109 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+.grid-header 
+{ 
+    grid-area: header; 
+    color: white;    
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.left-text-header
+{
+    width: 50%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.right-text-header
+{
+    width: 50%;
+    padding-left: 40%;
+}
+
+.right-text-header > a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+
+}
+
+.right-text-header > a:hover
+{
+    color: blue;
+}
+
+.grid-menu 
+{ 
+    grid-area: menu; 
+    /* width: 100%; */
+}
+
+#grid-menu-style
+{
+    margin: 0% 20%;
+}
+
+.grid-content { grid-area: main; }
+.grid-footer 
+{ 
+    grid-area: footer; 
+    background-color: black;
+    color: white;    
+    /* font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header header'
+    'menu menu main main main main main main'
+    'menu menu main main main main main main'
+    'footer footer footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.product
+{
+    margin: 5% 5%;
+}
+
+.card
+{
+    text-align: left;
+}
+
+#card-body-1
+{
+    padding: 20px 20px;
+}
+
+#card-body-2
+{
+    background-color : #d3d3d3; line-height : 40px; text-align: center;
+}
+
+#grid-footer-style
+{
+    font-size: 20px;
+    /* margin-top: 8.25%; */
+    /* padding: 2.5% 0%; */
+}
