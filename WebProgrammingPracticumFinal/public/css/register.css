@@ -1,22 +1,17 @@
-.login-form
+.register-form
 {
-    text-align: left;
-    margin: 10% 15%;
+    text-align: center;
+    margin: 0% 17.5%;
     width: 35%;
     border-style: groove;
     border-radius: 10px;
 }
 
-.input-form
+.regis-input-form
 {
     padding: 2.5% 0%;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.input-form-text
-{
-    margin-left: 10%; 
 }
 
 button:hover

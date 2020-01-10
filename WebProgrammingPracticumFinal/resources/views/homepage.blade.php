@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
+    
     <link rel="stylesheet" href="/css/homecontent.css">
+    <link rel="stylesheet" href="/css/login.css"> 
+    <link rel="stylesheet" href="/css/register.css"> 
+    <link rel="stylesheet" href="/css/product-detail.css"> 
+    <link rel="stylesheet" href="/css/cart.css"> 
+    <link rel="stylesheet" href="/css/insert-figure.css"> 
+    <link rel="stylesheet" href="/css/update-figure.css"> 
+    <link rel="stylesheet" href="/css/profile.css"> 
+    <link rel="stylesheet" href="/css/manage-user.css"> 
+    <link rel="stylesheet" href="/css/transaction-history.css"> 
     
 </head>
 <body>
     <div class="grid-container">
         <div class="grid-header">
             <div class="left-text-header">
-               <a href="" style="text-decoration:none; color:white; font-size:30px;">Mimi Shop</a>
+               <a href="/" style="text-decoration:none; color:white; font-size:30px;">Mimi Shop</a>
             </div>
             <div class="right-text-header">
                 <a href="/login">Login</a>
-                <a href="">Register</a>
+                <a href="/register">Register</a>
             </div>
         </div>
         
