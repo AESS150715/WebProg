@@ -12,6 +12,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
+            [
             'name' => 'Albert Sutanto',
             'email' => 'ASalbertsutanto123@gmail.com',
             'password' => Hash::make('asdf1234'),
@@ -21,17 +22,18 @@ class UsersTableSeeder extends Seeder
             'address' => 'jl. penthul gozong',
             'pp' => '',
             'role'=> 'admin'
-        ],
-        [
-            'name' => 'Bambang Bujank',
-            'email' => 'BamBu13@gmail.com',
-            'password' => Hash::make('12345678'),
-            'pwd_confirmed' => Hash::make('12345678'),
-            'phone' => '089688881313',
-            'gender' => 'male',
-            'address' => 'jl. kuthu bhusyuk',
-            'pp' => '',
-            'role'=> 'admin'
+            ],
+            [
+                'name' => 'Bambang Bujank',
+                'email' => 'BamBu13@gmail.com',
+                'password' => Hash::make('12345678'),
+                'pwd_confirmed' => Hash::make('12345678'),
+                'phone' => '089688881313',
+                'gender' => 'male',
+                'address' => 'jl. kuthu bhusyuk',
+                'pp' => '',
+                'role'=> 'admin'
+            ]
         ]);
     }
 }
