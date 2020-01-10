@@ -1,0 +1,43 @@
+#cart-table
+{ 
+    margin-left: 1.75%; 
+    /* border: 1px solid black;  */
+    /* position: fixed; */
+}
+
+thead
+{
+    background-color: lightskyblue;
+    color: white;
+    line-height: 50px;
+}
+
+td, th{width: 12.5%;}
+
+#price-rmbtn
+{
+    display: flex; 
+    width:150%; 
+    align-content: center;
+    text-align: center; 
+    align-items: center; 
+    padding: 30% 25% 10px 10px;
+    
+}
+
+tbody:nth-child(even)
+{
+    background-color: #f2f2f2
+}
+
+tbody>tr>th
+{
+    padding: 1% 0%;
+}
+
+tfoot
+{
+    background-color: lightskyblue;
+    line-height: 50px;
+    color: white;
+}

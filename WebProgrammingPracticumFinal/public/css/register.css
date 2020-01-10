@@ -1,9 +1,10 @@
 .register-form
 {
     text-align: center;
-    margin: 0% 20%;
+    margin: 0% 17.5%;
     width: 35%;
     border-style: groove;
+    border-radius: 10px;
 }
 
 .regis-input-form

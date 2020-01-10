@@ -4,6 +4,7 @@
     margin: 10% 15%;
     width: 35%;
     border-style: groove;
+    border-radius: 10px;
 }
 
 .input-form

@@ -1,0 +1,21 @@
+.Update-figure-input-form
+{
+    margin: 5% 2%;
+    width:95%; 
+    line-height: 20px;
+    text-align: center;
+}
+
+#Update-figure-input-form
+{
+    width: 90%;
+    padding-left: 4%;
+}
+
+.Update-figure-form
+{
+    border-style: groove;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 17.5%;
+}

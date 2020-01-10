@@ -25,10 +25,10 @@
 		{{-- @foreach ($products as $p) --}}
 		
 			<div class="card" style="width:100%">
-				<img class="card-img-top" src="/storage/1.jpg" alt="Card image" style="width:100%">
+				<img class="card-img-top" src="/storage/raphtalia.jpg" alt="Card image" style="width:100%">
 			  	<div class="card-body" id="card-body-1">
 					<h4 class="card-title" >
-						<a href="#" class="btn btn-primary" style="text-decoration:none; color:blue">
+						<a href="/product-detail" class="btn btn-primary" style="text-decoration:none; color:blue">
 						Rapthalia
 						</a>
 					</h4>

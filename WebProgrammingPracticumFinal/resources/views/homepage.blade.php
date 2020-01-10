@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="/css/homecontent.css">
     <link rel="stylesheet" href="/css/login.css"> 
     <link rel="stylesheet" href="/css/register.css"> 
+    <link rel="stylesheet" href="/css/product-detail.css"> 
+    <link rel="stylesheet" href="/css/cart.css"> 
+    <link rel="stylesheet" href="/css/insert-figure.css"> 
+    <link rel="stylesheet" href="/css/update-figure.css"> 
+    <link rel="stylesheet" href="/css/profile.css"> 
+    <link rel="stylesheet" href="/css/manage-user.css"> 
+    <link rel="stylesheet" href="/css/transaction-history.css"> 
     
 </head>
 <body>

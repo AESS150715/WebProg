@@ -1,0 +1,19 @@
+#profile-form
+{
+    width: 80%;
+    margin-left: -25%;
+}
+
+.profile-form
+{
+    text-align: left;
+    padding: 2% 0% 0% 17.5%;
+    
+}
+
+.profile-form-text
+{
+    width:60%; 
+    padding-left: 20px;
+    line-height: 25px;
+}
